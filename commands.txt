@@ -1,0 +1,5 @@
+sudo apt-get install build-essential linux-headers-`uname -r`
+make
+sudo insmod phil.c
+dmesg
+sudo rmmod phil
